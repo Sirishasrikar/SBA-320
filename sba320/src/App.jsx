@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import BooksPage from './pages/BooksPage'; // Import BooksPage component
-import JokesPage from './pages/JokesPage'; // Import JokesPage component
-import TriviaPage from './pages/TriviaPage'; // Import TriviaPage component
+import BooksPage from './pages/BooksPage'; 
+import JokesPage from './pages/JokesPage'; 
+import TriviaPage from './pages/TriviaPage'; 
 import './App.css';
 
 function App() {

@@ -56,7 +56,7 @@ function BookSection() {
                         <img src={selectedBook.volumeInfo.imageLinks.thumbnail} alt={selectedBook.volumeInfo.title} style={{ marginBottom: '10px' }} />
                     )}
                     <p>{selectedBook.volumeInfo.description}</p>
-                    {/* Add more book details as needed */}
+
                     {selectedBook.saleInfo && selectedBook.saleInfo.buyLink && (
                         <div>
                             <p>Buy this book:</p>
